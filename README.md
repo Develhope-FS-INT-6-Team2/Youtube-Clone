@@ -2,6 +2,7 @@
 
 First team project of the Develhope Fullstack Web Development Path.
 
-##Stack
+## Stack
+
 HTML
 CSS
