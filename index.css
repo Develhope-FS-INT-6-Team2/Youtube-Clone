@@ -3,12 +3,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #0f0f0f;
 }
 
 .shorts-header {
   display: flex;
   align-items: center;
   margin: 24px 0 24px 8px;
+  color:#f1f1f1;
 }
 
 .shorts-icon {
@@ -44,10 +46,12 @@ body {
   font-weight: 500px;
   margin-top: 5px;
   margin-bottom: 0px;
+  color:#f1f1f1;
 }
 
 .shorts-view {
   font-size: 13px;
+  color: #8e8e8e;
 }
 .main-container {
   display: flex;
@@ -69,11 +73,26 @@ body {
   width: 88%;
 }
 .side-bar a {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  color:#f1f1f1;
+  margin: 30px;
+  margin-left: 15px;
+  height: 10px;
+}
+.side-bar p {
   display: block;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color:black;
+  color:#f1f1f1;
   margin: 25px;
-  
+  height: 10px;
+  font-size: 16px;
+}
+
+.side-bar a img {
+  margin-right: 15px;
 }
