@@ -49,3 +49,31 @@ body {
 .shorts-view {
   font-size: 13px;
 }
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-bar {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width:12%;
+  font-style: Roboto Medium;
+  font-size: 14px;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88%;
+}
+.side-bar a {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:black;
+  margin: 25px;
+  
+}
