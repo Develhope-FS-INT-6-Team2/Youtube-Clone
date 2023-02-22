@@ -40,8 +40,8 @@ body {
 }
 
 .information {
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+  height: 100px;
 }
 
 .shorts-title {
