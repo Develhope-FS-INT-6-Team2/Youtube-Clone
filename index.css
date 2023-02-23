@@ -23,7 +23,15 @@ nav a{
   overflow: hidden;
   
 }
-
+a{
+  text-decoration: none;
+  color: black;
+  }
+  
+  a:visited{
+  text-decoration: none;
+  color: black;
+}
 .navicons{
   background-color: #0f0f0f;
   border-radius: 50%;
@@ -35,6 +43,7 @@ nav a{
   line-height: 36px;
   position: relative;
   border:#272727;
+  margin-top: 2%;
 }
 .yt-menu{
   display: flex;
@@ -114,21 +123,15 @@ width: 40px;
 
 #Searchbutton{
   background-color: rgba(255, 255, 255, 0.08);
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 40px;
-border-top-left-radius: 0px;
-border-top-right-radius: 40px;
-border:#303030;
-border-width: 0.3px;
-cursor: pointer;
-height: 45px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-width: 140px;
--moz-text-size-adjust: none
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border:#303030;
+  border-width: 0.3px;
+  cursor: pointer;
+  height: 45px;
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+  width: 140px;
+
 }
 .searchicon{
   height: 70%;
@@ -137,14 +140,63 @@ width: 140px;
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: left;
-  justify-content: ;
+  float: left;
+  margin-left: -4%;
+   background-color: #0f0f0f;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  padding-bottom: 18px;
+  width: 10%;
  
 }
+.settings-pic{
+  position: relative;
+padding-top:20%;
+}
+
+.nav-right-side{
+  background-color: #0f0f0f;
+  
+  position: relative;
+  
+  margin-left: 150px
+  
+}
+#sign-in{
+  position: relative;
+  background-color: #0f0f0f;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-color:rgb(170, 170, 170);
+  border-width: 1px;
+  cursor: pointer;
+  height: 40px;
+  
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+ width: 120px; 
+ 
+;
+ 
+}
+#sign-in-label{
+  position: relative;
+  color: #3ea6ff;
+  font-size: 16px;
+  top: -7px;
+}
+.sign-in-pic{
+  padding-top:3px
+
+}
+
+
 .selector-container{
 
  display: flex;
-
 
 }
 .head-selector{
