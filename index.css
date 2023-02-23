@@ -1,11 +1,152 @@
 html,
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
   background-color: #0f0f0f;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.nav{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+nav a{
+  overflow: hidden;
+  
 }
 
+.navicons{
+  background-color: #0f0f0f;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 36px;
+  position: relative;
+  border:#272727;
+}
+.yt-menu{
+  display: flex;
+  width: 7%;
+}
+#sidenav-menu{
+  box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+height: 40px;
+padding-bottom: 8px;
+padding-left: -15px;
+padding-right: 15px;
+padding-top: 1px;
+position: relative;
+width: 40px;
+
+}
+
+#yt-icon{
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto, Arial, sans-serif;
+  
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+  width: 140px;
+  
+}
+.Searchbar{
+    align-items: center;
+
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-basis:40%;
+  flex-direction: row;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  overflow: hidden;
+  width: 70%;
+  
+  
+}
+
+#Searchbar{
+  align-items: center;
+  background-color: rgb(18, 18, 18);
+  border-bottom-color: rgb(48, 48, 48);
+  border-bottom-left-radius: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(48, 48, 48);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(255, 255, 255, 0.88);
+  border-right-width: 0px;
+  border-top-color: rgb(48, 48, 48);
+  border-top-left-radius: 40px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: #0f0f0f;
+  caret-color: rgb(241, 241, 241);
+  color: rgba(255, 255, 255, 0.88);
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 32px;
+ 
+  padding-left: 16px;
+  padding-right: 4px;
+  position: relative;
+  height:40px;
+  width: 1000px;
+}
+
+#Searchbutton{
+  background-color: rgba(255, 255, 255, 0.08);
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 40px;
+border-top-left-radius: 0px;
+border-top-right-radius: 40px;
+border:#303030;
+border-width: 0.3px;
+cursor: pointer;
+height: 45px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+width: 140px;
+-moz-text-size-adjust: none
+}
+.searchicon{
+  height: 70%;
+}
+#Navmic{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: left;
+  justify-content: ;
+ 
+}
+.selector-container{
+
+ display: flex;
+
+
+}
 .head-selector{
   margin-left: 3%;
   display: inline-block;
@@ -33,6 +174,7 @@ body {
   border-bottom-right-radius: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  border:#272727;
   background-color: #272727;
   color: #e3e3e3;
   font-size: 14px;
@@ -45,6 +187,7 @@ body {
   padding-left: 12px;
 padding-right: 12px;
 }
+.
 
 .shorts-header {
   display: flex;
@@ -54,7 +197,10 @@ padding-right: 12px;
 }
 
 .shorts-container {
-  position: absolute;
+display: flex;
+position:absolute;
+margin-top: 10%;
+margin-left: 3%;
 }
 
 .shorts-icon {
@@ -99,23 +245,36 @@ padding-right: 12px;
 }
 .main-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-basis: auto;
+  flex-direction: row;
+
+  font-size: 10px;
+
+  margin-bottom: 16px;
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+  touch-action: auto;
+  
 }
 .side-bar {
   display: block;
   align-items: center;
   justify-content: center;
+  height:100%;
   width: 12%;
+
+  overflow:visible;
+ 
   font-style: Roboto Medium;
   font-size: 14px;
 }
 .content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
+display: flex;
+
   width: 88%;
+  height: 100%;
+  
+
 }
 .side-bar a {
   display: flex;
