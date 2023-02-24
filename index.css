@@ -382,4 +382,15 @@ a:visited {
   justify-content: space-around;
   align-items: center;
     margin-top: 600px;
-  }
+}
+.vid-list div a {
+    font-size: 1rem;
+    font-weight: 500px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #f1f1f1;
+}
+.vid-view {
+  font-size: 13px;
+  color: #8e8e8e;
+}
