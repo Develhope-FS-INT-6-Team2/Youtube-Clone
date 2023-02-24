@@ -311,9 +311,14 @@ a:visited {
   justify-content: left;
   text-decoration: none;
   color: #f1f1f1;
-  margin: 30px;
+  margin: 8px;
   margin-left: 15px;
   height: 10px;
+  padding: 14px;
+  border-radius: 10px;
+}
+.side-bar a:hover {
+  background-color: #363434;
 }
 .side-bar p {
   display: block;
