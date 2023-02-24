@@ -232,7 +232,7 @@ a:visited {
 
 .shorts-container {
   position: absolute;
-  margin-top: 10%;
+  margin-bottom: 300px;
   margin-left: 3%;
 }
 
@@ -300,7 +300,7 @@ a:visited {
   font-size: 14px;
 }
 .content-container {
-  display: flex;
+  
 
   width: 88%;
   height: 100%;
@@ -334,3 +334,52 @@ a:visited {
 .side-bar a img {
   margin-right: 15px;
 }
+.flex-div{
+    color: #e3e3e3;
+    display: flex;
+    align-items: center;
+}
+.list-container{
+  color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+    margin-top: 40px;
+}
+.vid-info{
+  color: #e3e3e3;
+}
+.vid-list .thumbnail{
+  color: #e3e3e3;
+    width: 100%;
+    border-radius: 5px;
+}
+.vid-list .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+
+}
+.vid-list .flex-div img{
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.fourdiv{
+  justify-content: space-between;
+  gap: 37px;
+  display: flex;
+}
+.vid-list{
+  height: 360px;
+  width: 360px;
+  
+}
+.listtwo-container{
+  color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+    margin-top: 600px;
+  }
