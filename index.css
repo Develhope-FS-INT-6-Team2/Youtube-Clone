@@ -1,5 +1,4 @@
 html,
-
 body {
   margin: 0;
   padding: 0;
@@ -8,31 +7,30 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-.nav{
+.nav {
   align-items: center;
   display: flex;
   flex-direction: row;
   font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
-  
+
   justify-content: space-between;
   padding-left: 16px;
   padding-right: 16px;
 }
-nav a{
+nav a {
   overflow: hidden;
-  
 }
-a{
-  text-decoration: none;
-  color: black;
-  }
-  
-  a:visited{
+a {
   text-decoration: none;
   color: black;
 }
-.navicons{
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.navicons {
   background-color: #0f0f0f;
   border-radius: 50%;
   color: rgb(255, 255, 255);
@@ -42,52 +40,48 @@ a{
   letter-spacing: normal;
   line-height: 36px;
   position: relative;
-  border:#272727;
+  border: #272727;
   margin-top: 2%;
 }
-.yt-menu{
+.yt-menu {
   display: flex;
   width: 7%;
 }
-#sidenav-menu{
+#sidenav-menu {
   box-sizing: border-box;
-color: rgb(255, 255, 255);
-display: block;
-height: 40px;
-padding-bottom: 8px;
-padding-left: -15px;
-padding-right: 15px;
-padding-top: 1px;
-position: relative;
-width: 40px;
-
+  color: rgb(255, 255, 255);
+  display: block;
+  height: 40px;
+  padding-bottom: 8px;
+  padding-left: -15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  position: relative;
+  width: 40px;
 }
 
-#yt-icon{
+#yt-icon {
   display: flex;
   flex-direction: row;
   font-family: Roboto, Arial, sans-serif;
-  
+
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   width: 140px;
-  
 }
-.Searchbar{
-    align-items: center;
+.Searchbar {
+  align-items: center;
 
   background-color: rgba(0, 0, 0, 0);
   display: flex;
-  flex-basis:40%;
+  flex-basis: 40%;
   flex-direction: row;
   font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
   overflow: hidden;
   width: 70%;
-  
-  
 }
 
-#Searchbar{
+#Searchbar {
   align-items: center;
   background-color: rgb(18, 18, 18);
   border-bottom-color: rgb(48, 48, 48);
@@ -113,108 +107,98 @@ width: 40px;
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   margin-left: 32px;
- 
+
   padding-left: 16px;
   padding-right: 4px;
   position: relative;
-  height:40px;
+  height: 40px;
   width: 1000px;
 }
 
-#Searchbutton{
+#Searchbutton {
   background-color: rgba(255, 255, 255, 0.08);
   border-bottom-right-radius: 40px;
   border-top-right-radius: 40px;
-  border:#303030;
+  border: #303030;
   border-width: 0.3px;
   cursor: pointer;
   height: 45px;
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   width: 140px;
-
 }
-.searchicon{
+.searchicon {
   height: 70%;
 }
-#Navmic{
+#Navmic {
   display: flex;
   position: relative;
   flex-direction: row;
   float: left;
   margin-left: -4%;
-   background-color: #0f0f0f;
+  background-color: #0f0f0f;
   border-radius: 50%;
   color: rgb(255, 255, 255);
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   padding-bottom: 18px;
   width: 10%;
- 
 }
-.settings-pic{
+.settings-pic {
   position: relative;
-padding-top:20%;
+  padding-top: 20%;
 }
 
-.nav-right-side{
+.nav-right-side {
   background-color: #0f0f0f;
-  
+
   position: relative;
-  
-  margin-left: 150px
-  
+
+  margin-left: 150px;
 }
-#sign-in{
+#sign-in {
   position: relative;
   background-color: #0f0f0f;
   border-bottom-right-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
-  border-color:rgb(170, 170, 170);
+  border-color: rgb(170, 170, 170);
   border-width: 1px;
   cursor: pointer;
   height: 40px;
-  
+
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
- width: 120px; 
- 
-;
- 
+  width: 120px;
 }
-#sign-in-label{
+#sign-in-label {
   position: relative;
   color: #3ea6ff;
   font-size: 16px;
   top: -7px;
 }
-.sign-in-pic{
-  padding-top:3px
-
+.sign-in-pic {
+  padding-top: 3px;
 }
 
-
-.selector-container{
-
- display: flex;
-
+.selector-container {
+  display: flex;
 }
-.head-selector{
+.head-selector {
   margin-left: 3%;
   display: inline-block;
   width: 100%;
   height: auto;
-  overflow:scroll;
+  overflow: scroll;
   white-space: nowrap;
   position: relative;
-  overflow-x:visible;
+  overflow-x: visible;
   overflow-y: hidden;
   scrollbar-arrow-color: #8e8e8e;
   scrollbar-width: none;
-  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0)
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
 }
 
-.head-selector-item{
+.head-selector-item {
   margin-bottom: 12px;
   margin-left: 0px;
   margin-right: 12px;
@@ -226,7 +210,7 @@ padding-top:20%;
   border-bottom-right-radius: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  border:#272727;
+  border: #272727;
   background-color: #272727;
   color: #e3e3e3;
   font-size: 14px;
@@ -234,13 +218,11 @@ padding-top:20%;
   min-width: 12px;
   letter-spacing: 0.2px;
   line-height: 20px;
-  height: 32px ;
-  font-family:  Arial, sans-serif;
+  height: 32px;
+  font-family: Arial, sans-serif;
   padding-left: 12px;
-padding-right: 12px;
+  padding-right: 12px;
 }
-.
-
 .shorts-header {
   display: flex;
   align-items: center;
@@ -249,10 +231,9 @@ padding-right: 12px;
 }
 
 .shorts-container {
-display: flex;
-position:absolute;
-margin-top: 10%;
-margin-left: 3%;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 3%;
 }
 
 .shorts-icon {
@@ -305,28 +286,24 @@ margin-left: 3%;
   margin-bottom: 16px;
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   touch-action: auto;
-  
 }
 .side-bar {
   display: block;
   align-items: center;
   justify-content: center;
-  height:100%;
+  height: 100%;
   width: 12%;
 
-  overflow:visible;
- 
+  overflow: visible;
+
   font-style: Roboto Medium;
   font-size: 14px;
 }
 .content-container {
-  
-display: flex;
+  display: flex;
 
   width: 88%;
   height: 100%;
-  
-
 }
 .side-bar a {
   display: flex;
