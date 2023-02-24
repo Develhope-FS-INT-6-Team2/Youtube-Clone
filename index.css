@@ -246,7 +246,7 @@ a:visited {
   
   border-top: 3px solid gray;
   border-bottom: 3px solid gray;
-  margin-left: 3%;
+  margin-left: 5.1%;
   padding-bottom: 2%;
   overflow-x: auto;
   scrollbar-width: none;
@@ -378,15 +378,16 @@ a:visited {
 }
 .vid-info{
   color: #e3e3e3;
+  line-height: 15px;
 }
 .vid-list .thumbnail{
   color: #e3e3e3;
-    width: 100%;
-    border-radius: 5px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 .vid-list .flex-div{
     align-items: flex-start;
-    margin-top: 7px;
+    margin-top: 9px;
 
 }
 .vid-list .flex-div img{
@@ -399,6 +400,8 @@ a:visited {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .vid-list{
@@ -406,7 +409,7 @@ a:visited {
   margin-right: 15px;
   height: 360px;
   width: 21%;
-  margin-bottom: -5%;
+  margin-bottom: -4%;
   
 }
 .listtwo-container{
@@ -426,4 +429,5 @@ a:visited {
 .vid-view {
   font-size: 13px;
   color: #8e8e8e;
+  line-height: 5px;
 }
