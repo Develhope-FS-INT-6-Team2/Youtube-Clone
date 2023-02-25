@@ -15,11 +15,6 @@
     overflow: hidden;
   }
   .subsvid-info {
-    line-height: 1.5em;
-    height: 8em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     width: 100%;
   }
   .subsvid-list .thumbnail {
@@ -29,20 +24,15 @@
   }
   .subsvid-list .flex-subsvid {
     align-items: flex-start;
-    margin-top: 9px;
+    margin-top: 7px;
   }
-  /*channel img*/
-  .subsvid-list .flex-subsvid img {
-    width: 35px;
-    margin-right: 10px;
-    border-radius: 50%;
-  }
+
   .sixdiv {
     justify-content: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
    
     margin-left: 8%;
     margin-right: 8%;
@@ -53,13 +43,20 @@
     margin-right: 2px;
     height: 360px;
     width: 15%;
-    margin-bottom: -10%;
+    margin-bottom: -9.7%;
   }
   .subsvid-list div a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500px;
-    margin-top: 5px;
+    line-height: 1rem;
+    max-height: 2rem;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     color: #f1f1f1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Roboto","Arial",sans-serif;
   }
   .subsvid-view {
     font-size: 13px;
