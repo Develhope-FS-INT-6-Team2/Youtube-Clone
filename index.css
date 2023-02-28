@@ -13,12 +13,11 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
   flex: auto;
-  
-  justify-content:space-between;
+
+  justify-content: space-between;
   padding-left: 16px;
   padding-right: 16px;
   width: auto;
-
 }
 nav a {
   overflow: hidden;
@@ -33,7 +32,6 @@ a:visited {
   color: black;
 }
 
-  
 .navicons {
   background-color: #0f0f0f;
   border-radius: 50%;
@@ -47,16 +45,16 @@ a:visited {
   border: none;
   margin-top: 2%;
 }
-.navicons:hover{
+.navicons:hover {
   background: #3ea6ff;
-  background-size:0%;
+  background-size: 0%;
 
   border-radius: 50%;
 }
 .yt-menu {
   display: flex;
   flex-basis: 15%;
-  
+
   margin-top: 1%;
 }
 #sidenav-menu {
@@ -65,12 +63,10 @@ a:visited {
   display: block;
   height: 40px;
   padding-bottom: 8px;
-  
-  
+
   padding-top: 1px;
   position: relative;
   width: 40%;
- 
 }
 
 #yt-icon {
@@ -81,23 +77,22 @@ a:visited {
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   width: 100%;
 }
-.nav-center{
+.nav-center {
   align-items: center;
-background-color: rgba(0, 0, 0, 0);
-border-color: rgb(0, 0, 0);
-border-style: none;
-display: flex;
-flex-basis:40%;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  border-style: none;
+  display: flex;
+  flex-basis: 40%;
 
-font-family: Roboto, Arial, sans-serif;
-
+  font-family: Roboto, Arial, sans-serif;
 }
 .Searchbar {
   align-items: center;
 
   background-color: rgba(0, 0, 0, 0);
   display: flex;
-  
+
   flex-direction: row;
   font-family: Arial, sans-serif;
   font-size: 10px;
@@ -137,11 +132,10 @@ font-family: Roboto, Arial, sans-serif;
   flex-basis: 0.000000001px;
   margin-left: 32px;
   padding: 0px 4px 0px 16px;
-  width: 518px
+  width: 518px;
 }
-#Searchbar:focus{
+#Searchbar:focus {
   border: 1px solid #3ea6ff;
-  
 }
 #Searchbutton {
   background-color: rgba(255, 255, 255, 0.08);
@@ -151,7 +145,7 @@ font-family: Roboto, Arial, sans-serif;
   border-width: 0.3px;
   cursor: pointer;
   height: 45px;
-  
+
   width: 12%;
 }
 .searchicon {
@@ -161,21 +155,18 @@ font-family: Roboto, Arial, sans-serif;
   display: flex;
   position: relative;
   flex-direction: row;
-  
- 
+
   background-color: #0f0f0f;
   border-radius: 50%;
-  
+
   color: rgb(255, 255, 255);
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   margin-bottom: -20px;
   width: 4%;
   margin-top: 0%;
-  
 }
-#Navmic-pic{
- 
+#Navmic-pic {
 }
 
 .settings-pic {
@@ -189,7 +180,7 @@ font-family: Roboto, Arial, sans-serif;
   display: flex;
   position: relative;
   margin-left: 10%;
-  margin-top: 1.5% ;
+  margin-top: 1.5%;
   float: right;
 }
 #sign-in {
@@ -214,12 +205,11 @@ font-family: Roboto, Arial, sans-serif;
   top: -7px;
 }
 .sign-in-pic {
-  padding-top:3px;
+  padding-top: 3px;
 }
 
 .selector-container {
   display: flex;
- 
 }
 .head-selector {
   margin-left: 3%;
@@ -231,7 +221,6 @@ font-family: Roboto, Arial, sans-serif;
   position: relative;
   scrollbar-width: none;
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-  ;
 }
 .head-selector::-webkit-scrollbar {
   width: 5px;
@@ -268,14 +257,15 @@ font-family: Roboto, Arial, sans-serif;
   padding-right: 12px;
 }
 
-.head-selector-item a{
+.head-selector-item a {
   color: #e3e3e3;
 }
 /* {
   background-color: aliceblue;
 } */
 
-.head-selector-item:hover, .head-selector-item a:hover{
+.head-selector-item:hover,
+.head-selector-item a:hover {
   color: black;
   background-color: aliceblue;
 }
