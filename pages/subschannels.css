@@ -1,0 +1,94 @@
+.subs-channels-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.channels-box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.category-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.category-name {
+    color: aliceblue;
+    font-size: 20px;
+    align-items: left;
+}
+.channel-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    width: 17%;
+    margin-bottom: 2%;
+}
+.channel-logo {
+    width: 60%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+.channel-name {
+    font-size: 15px;
+    margin: 1%;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.sub-count {
+    color: rgb(101, 102, 103);
+    font-size: 12px;
+    margin: 3%;
+    
+}
+.sub-button {
+    width: 40% ;
+    background-color: rgb(53, 54, 54);
+    color: white;
+    margin-top: 5%;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+}
+.sub-button:hover {
+    background-color: rgb(87, 89, 89);
+}
+.channel-box :nth-child(2) {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.channel-box :nth-child(3) {
+    text-decoration: none;
+    color: rgb(101, 102, 103);
+}
+.show-more-channels {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 20px;
+    width: 120px;
+    height: 26px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+
+}
+.show-more-channels:hover {
+    background-color: rgb(87, 89, 89);
+}
+.text-aling-left {
+    text-align: left;
+}
