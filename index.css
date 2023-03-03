@@ -360,7 +360,7 @@ a:visited {
   width: 88%;
   height: 100%;
 }
-.side-bar a {
+.side-bar > a {
   display: flex;
   align-items: center;
   justify-content: left;
@@ -456,4 +456,30 @@ a:visited {
   font-size: 13px;
   color: #8e8e8e;
   line-height: 5px;
+}
+
+footer {
+  border-top: 1px solid white;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+footer * {
+  color: #aaa;
+}
+
+footer > div {
+  margin-bottom: 16px;
+}
+
+footer > div > div {
+  display: flex;
+}
+
+footer > div > div > a {
+  margin-right: 8px;
+}
+
+footer > * {
+  font-size: 13px;
 }
