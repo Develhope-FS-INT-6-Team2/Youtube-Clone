@@ -51,6 +51,34 @@ a:visited {
 
   border-radius: 50%;
 }
+
+.naviconYoutube{
+  background-color: #0f0f0f;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 36px;
+  position: relative;
+  border: none;
+  margin-top: 2%;
+}
+
+.naviconForMic{
+  background-color: #0f0f0f;
+  border-radius: 50%;
+  position: relative;
+  border: none;
+}
+
+.naviconForMic:hover{
+  background-color: #3ea6ff;
+}
+
+
+
 .yt-menu {
   display: flex;
   flex-basis: 15%;
@@ -83,7 +111,7 @@ a:visited {
   border-color: rgb(0, 0, 0);
   border-style: none;
   display: flex;
-  flex-basis: 40%;
+  justify-content: center;
 
   font-family: Roboto, Arial, sans-serif;
 }
@@ -162,7 +190,7 @@ a:visited {
   color: rgb(255, 255, 255);
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
-  margin-bottom: -20px;
+ 
   width: 4%;
   margin-top: 0%;
 }
