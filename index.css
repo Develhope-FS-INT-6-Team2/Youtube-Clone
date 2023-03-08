@@ -13,11 +13,14 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
   flex: auto;
-
   justify-content: space-between;
-  padding-left: 16px;
-  padding-right: 16px;
   width: auto;
+  height: 60px;
+  margin-left: 1%;
+  margin-right: 1%;
+
+
+  
 }
 nav a {
   overflow: hidden;
@@ -34,76 +37,43 @@ a:visited {
 
 .navicons {
   background-color: #0f0f0f;
-  border-radius: 50%;
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: normal;
-  line-height: 36px;
+ 
   position: relative;
   border: none;
-  margin-top: 2%;
+  
 }
 .navicons:hover {
-  background: #3ea6ff;
+  background: #5b6268;
   background-size: 0%;
 
   border-radius: 50%;
 }
-
-.naviconYoutube{
-  background-color: #0f0f0f;
-  border-radius: 50%;
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: normal;
-  line-height: 36px;
-  position: relative;
-  border: none;
-  margin-top: 2%;
-}
-
-.naviconForMic{
-  background-color: #0f0f0f;
-  border-radius: 50%;
-  position: relative;
-  border: none;
-}
-
-.naviconForMic:hover{
-  background-color: #3ea6ff;
-}
-
-
-
 .yt-menu {
   display: flex;
-  flex-basis: 15%;
-
-  margin-top: 1%;
-}
-#sidenav-menu {
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  display: block;
-  height: 40px;
-  padding-bottom: 8px;
-
-  padding-top: 1px;
   position: relative;
-  width: 40%;
+  
+ align-items: center;
+
+
 }
+.burguer-menu {
+  
+  height: 20px;
+  width: 20px;
+}
+#burguer-menu {
+  
+  height: 40px;
+  width: 40px;
+}
+
 
 #yt-icon {
-  display: flex;
-  flex-direction: row;
-  font-family: Roboto, Arial, sans-serif;
-
-  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-  width: 100%;
+  background-color: #0f0f0f;
+ 
+  position: relative;
+  border: none;
+  ;
 }
 .nav-center {
   align-items: center;
@@ -112,9 +82,9 @@ a:visited {
   border-style: none;
   display: flex;
   justify-content: center;
-
-  font-family: Roboto, Arial, sans-serif;
+  gap: 10px;
 }
+
 .Searchbar {
   align-items: center;
 
@@ -131,39 +101,26 @@ a:visited {
 #Searchbar {
   align-items: center;
   background-color: rgb(18, 18, 18);
-  border-bottom-color: rgb(48, 48, 48);
+  border: 1px solid rgb(48, 48, 48);
   border-bottom-left-radius: 40px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(48, 48, 48);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-right-color: rgba(255, 255, 255, 0.88);
-  border-right-width: 0px;
-  border-top-color: rgb(48, 48, 48);
   border-top-left-radius: 40px;
-  border-top-style: solid;
-  border-top-width: 1px;
   box-shadow: #0f0f0f;
-  caret-color: rgb(241, 241, 241);
   color: rgba(255, 255, 255, 0.88);
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
-  flex-shrink: 1;
   font-family: Arial, sans-serif;
   font-size: 16px;
   position: relative;
-  height: 40px;
-  width: 100%;
+  height: 35px;
   max-width: 100%;
-  flex-basis: 0.000000001px;
-  margin-left: 32px;
   padding: 0px 4px 0px 16px;
   width: 518px;
 }
 #Searchbar:focus {
-  border: 1px solid #3ea6ff;
+  background-color: rgb(18, 18, 18);
+  border-color: #3ea6ff;
+  border-width: 1px;
+  border-style: solid;
 }
 #Searchbutton {
   background-color: rgba(255, 255, 255, 0.08);
@@ -172,60 +129,58 @@ a:visited {
   border: #303030;
   border-width: 0.3px;
   cursor: pointer;
-  height: 45px;
-
+  height: 38px;
   width: 12%;
 }
-.searchicon {
-  height: 70%;
-}
+
 #Navmic {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-
-  background-color: #0f0f0f;
-  border-radius: 50%;
-
-  color: rgb(255, 255, 255);
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
  
-  width: 4%;
-  margin-top: 0%;
+  height: 40px;
+  width: 45px;
+ 
 }
-#Navmic-pic {
-}
+
 
 .settings-pic {
   position: relative;
-  padding-bottom: 10px;
-  height: 37px;
+
+  height: 28px;
+  width: 28px;
+}
+#settings-pic{
+  height: 40px;
+  width: 45px;
+  background-color: #0f0f0f;
+  border:none
 }
 
 .nav-right-side {
   background-color: #0f0f0f;
   display: flex;
   position: relative;
-  margin-left: 10%;
-  margin-top: 1.5%;
-  float: right;
+  
+ align-items: center;
+
+
 }
 #sign-in {
   position: relative;
   background-color: #0f0f0f;
-  border-bottom-right-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  border-top-left-radius: 40px;
-  border-color: rgb(170, 170, 170);
-  border-width: 1px;
+  border-radius: 40px;
+ 
+  border: 1px solid rgb(170, 170, 170);
+ 
   cursor: pointer;
   height: 37px;
 
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   width: 120px;
 }
+#sign-in:hover{
+  background-color: #2a5378;
+  border: none;
+  }
+
 #sign-in-label {
   position: relative;
   color: #3ea6ff;
@@ -234,6 +189,8 @@ a:visited {
 }
 .sign-in-pic {
   padding-top: 3px;
+  height: 27px;
+  width: 27px;
 }
 
 .selector-container {
