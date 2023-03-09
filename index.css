@@ -249,10 +249,15 @@ a:visited {
   background-color: aliceblue;
 } */
 
-.head-selector-item:hover,
-.head-selector-item a:hover {
+.head-selector-item:hover {
   color: black;
-  background-color: aliceblue;
+  background-color: #464545;
+}
+
+.head-selector-item:focus{
+  color: black;
+  background-color: white;
+  
 }
 .shorts-header {
   display: flex;
