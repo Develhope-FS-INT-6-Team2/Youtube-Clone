@@ -1,0 +1,113 @@
+body {
+    color: rgb(226, 231, 236);
+}
+.liked-videos-page-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.left-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 20%;
+    
+    margin-left: 4%;
+    padding: 1.5%;
+    background-color: rgb(40, 53, 103);
+    border-radius: 30px;
+}
+.right-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.left-header-buttons button img {
+    width: 20px;
+    margin-right: 10px;
+}
+.dot-image {
+    width: 20px;
+}
+.left-header h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.left-header h2 {
+    margin-bottom: 1px;
+}
+.left-header p {
+    font-size: 12px;
+}
+.three-dots {
+    background-color: rgb(61, 65, 93);
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.three-dots img {
+    align-items: center;
+    justify-content: center;
+}
+.left-header-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.left-header-buttons button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: rgb(61, 65, 93);
+    border: none;
+}
+.one-video-container {
+    display: flex;
+    padding: 0.5%;
+    margin: 0%;
+    padding-left: 1%;
+    margin-left: 0%;
+    border-radius: 10px;
+    align-items: center;
+}
+.one-video-container:hover {
+    background-color:rgb(39, 39, 39) ;
+}
+.video-dsc-text {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.dsc-upper {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -6%;
+}
+.dsc-bottom {
+    font-size: 12px;
+    color: grey;
+    margin-top: 0%;
+}
+.left-header button:hover {
+    background-color: aliceblue;
+}
+.dsc-number {
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+    width: 1%;
+    color: grey;
+}
