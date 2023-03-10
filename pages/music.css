@@ -12,6 +12,7 @@ body {
 .music-page {
   width: 100%;
   min-width: 1200px;
+  padding-left: 20px;
 }
 
 .music-hero {
@@ -104,18 +105,15 @@ body {
 }
 .music-card {
   display: flex;
+  cursor: pointer;
 }
 
 .card-content-container {
   padding: 20px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #aaa;
-}
 
-.music-card {
-  cursor: pointer;
+  border-bottom: 1px solid #aaa;
 }
 
 .music-card-info {
@@ -133,4 +131,57 @@ body {
 .card-header {
   font-size: 14px;
   font-weight: bold;
+}
+
+.cards-second {
+  display: flex;
+  align-items: center;
+}
+
+.play-all-btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0f0f0f;
+  height: 36px;
+  width: 100px;
+  border-radius: 18px;
+  border: none;
+}
+
+.play-all-btn:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.music-card-second {
+  max-width: 210px;
+  margin-right: 1%;
+}
+
+.music-card-info-second {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.music-card-info-second:hover {
+  cursor: pointer;
+}
+.music-card-img:hover {
+  cursor: pointer;
+}
+.music-card-info-second > .card-header {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.music-card-info-second > span {
+  color: #aaa;
+  margin: 2px 0;
+}
+
+.cards-last > .card-content-container {
+  border: none;
 }
