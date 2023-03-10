@@ -1,0 +1,187 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.music-page {
+  width: 100%;
+  min-width: 1200px;
+  padding-left: 20px;
+}
+
+.music-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.music-hero > img {
+  width: 100%;
+}
+
+.music-header {
+  background-color: #272727;
+  padding: 0 10%;
+}
+.music-info {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 1% 0;
+}
+.music-icon-section {
+  margin-right: 2%;
+}
+
+.music-icon-section > img {
+  border-radius: 40px;
+}
+.music-header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  margin: 0;
+}
+
+.music-subscribe-button {
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 36px;
+  margin-left: auto;
+  border: none;
+}
+
+.music-subscribe-button:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
+
+.tabs-container {
+  padding-left: 8%;
+}
+
+.tabs-container > button {
+  background-color: #272727;
+  border: none;
+  color: #aaa;
+
+  padding: 10px 20px;
+  margin-right: 4%;
+  font-size: 14px;
+  font-weight: bolder;
+  border-bottom: 2px solid #aaa;
+}
+
+.tabs-container > button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.music-content-container {
+  padding: 0 10%;
+  padding-top: 1%;
+}
+.cards {
+  margin-bottom: 20px;
+}
+.music-card {
+  display: flex;
+  cursor: pointer;
+}
+
+.card-content-container {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #aaa;
+}
+
+.music-card-info {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  max-width: 180px;
+}
+
+.music-card-img > img {
+  border-radius: 10px;
+}
+.card-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cards-second {
+  display: flex;
+  align-items: center;
+}
+
+.play-all-btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0f0f0f;
+  height: 36px;
+  width: 100px;
+  border-radius: 18px;
+  border: none;
+}
+
+.play-all-btn:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.music-card-second {
+  max-width: 210px;
+  margin-right: 1%;
+}
+
+.music-card-info-second {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.music-card-info-second:hover {
+  cursor: pointer;
+}
+.music-card-img:hover {
+  cursor: pointer;
+}
+.music-card-info-second > .card-header {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.music-card-info-second > span {
+  color: #aaa;
+  margin: 2px 0;
+}
+
+.cards-last > .card-content-container {
+  border: none;
+}

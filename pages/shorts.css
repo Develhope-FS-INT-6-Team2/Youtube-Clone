@@ -74,7 +74,7 @@ h2 {
   background-color: #aaa;
 }
 
-.shorts-page-reaction-container{
+.shorts-page-reaction-container {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -135,18 +135,14 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin-right: 12px;
-  
 }
 
-.shorts-page-for-side img{
+.shorts-page-for-side img {
   margin-top: 5px;
   border-radius: 6px;
 }
 
-.shorts-page-video-footer{
+.shorts-page-video-footer {
   z-index: 2;
   margin-top: -35%;
-}
-.shorts-page-video-area img{
-  
 }
