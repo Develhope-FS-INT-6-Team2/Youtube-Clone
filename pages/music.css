@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.music-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.music-hero > img {
+  width: 100%;
+}
+
+.music-header {
+  display: flex;
+  background-color: #272727;
+  align-items: center;
+}
+
+.music-icon-section {
+  padding-left: 60px;
+}
+
+.music-icon-section > img {
+  border-radius: 40px;
+}
+
+.music-subscribe-button {
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 36px;
+  margin-left: auto;
+}
