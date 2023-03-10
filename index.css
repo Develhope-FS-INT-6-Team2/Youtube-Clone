@@ -18,6 +18,7 @@ body {
   height: 60px;
   margin-left: 1%;
   margin-right: 1%;
+
 }
 nav a {
   overflow: hidden;
@@ -54,13 +55,10 @@ a:visited {
   height: 20px;
   width: 20px;
 }
-<<<<<<< Updated upstream
 #burguer-menu {
   height: 40px;
   width: 40px;
 }
-=======
->>>>>>> Stashed changes
 
 #yt-icon {
   background-color: #0f0f0f;
