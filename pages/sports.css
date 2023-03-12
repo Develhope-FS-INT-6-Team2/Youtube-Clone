@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.sports-page {
+  width: 100%;
+  min-width: 1200px;
+  padding-left: 20px;
+}
+
+.sports-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.sports-hero > img {
+  width: 100%;
+}
+
+.sports-header {
+  background-color: #272727;
+  padding: 0 5%;
+}
+.sports-info {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 1% 0;
+}
+.sports-icon-section {
+  margin-right: 2%;
+}
+
+.sports-icon-section > img {
+  border-radius: 40px;
+}
+.sports-header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.sports-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  margin: 0;
+}
+
+.sports-subscribe-button {
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 36px;
+  margin-left: auto;
+  border: none;
+}
+
+.sports-subscribe-button:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
