@@ -74,3 +74,91 @@ body {
   cursor: pointer;
   background-color: #aaa;
 }
+.cards-container {
+  margin: 2% 5%;
+  border-top: 4px solid #272727;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+.cards-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 1%;
+}
+
+.cards-info > span {
+  font-size: 20px;
+}
+.cards-info > button {
+  background-color: #0f0f0f;
+  border: none;
+  color: #3ea6ff;
+}
+
+.cards-info > *:hover {
+  cursor: pointer;
+}
+
+.cards-info > button {
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+.cards-info > button:hover {
+  background-color: #0f0f0f;
+  border: none;
+  color: #3ea6ff;
+  background-color: #aaa;
+}
+.sports-card {
+  width: 25%;
+  height: 350px;
+}
+
+.sports-card:hover {
+  cursor: pointer;
+}
+
+.sports-card-img > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.sports-card-logo > img {
+  border-radius: 18px;
+}
+
+.sports-card-info {
+  display: flex;
+  padding: 2% 0;
+}
+
+.sports-card-header {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sports-card-header > h4 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.sports-card-header > span {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.channel-name:hover {
+  color: whitesmoke;
+}
