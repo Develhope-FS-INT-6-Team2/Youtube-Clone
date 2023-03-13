@@ -34,6 +34,11 @@ body {
   margin: auto;
   padding: 1% 0;
 }
+
+.sports-info > *:hover {
+  cursor: pointer;
+}
+
 .sports-icon-section {
   margin-right: 2%;
 }
@@ -75,7 +80,8 @@ body {
   background-color: #aaa;
 }
 .cards-container {
-  margin: 2% 5%;
+  margin: 0 5%;
+  margin-top: 2%;
   border-top: 4px solid #272727;
 }
 
@@ -161,4 +167,10 @@ body {
 
 .channel-name:hover {
   color: whitesmoke;
+}
+
+.cards-container-second {
+  padding-top: 2%;
+  margin: 0 5%;
+  border-top: 4px solid #272727;
 }
