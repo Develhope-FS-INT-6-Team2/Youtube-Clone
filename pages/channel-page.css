@@ -1,0 +1,191 @@
+.channel-page-container {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    width: 88%;
+    align-items: center;
+}
+.channel-page-container a {
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.channel-page-top-photo {
+    width: 100%;
+}
+.channel-page-channel-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-top: 15px;
+}
+.name-logo-container {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+}
+.channel-page-sub-button {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    align-items: center;   
+}
+.channel-page-sub-button button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.channel-page-sub-button button:hover {
+    background-color: rgb(173, 170, 170);
+}
+.name-logo-container img {
+    width: auto;
+    height: 85px;
+}
+.channel-page-channel-dsc {
+    margin-left: 20px;
+    align-items: center;
+}
+.channel-page-channel-dsc h1 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.channel-page-channel-dsc p {
+    color: grey;
+    font-size: 13px;
+    margin: 5px;
+    
+}
+.channel-page-navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 75%;
+    margin-top: 0px;
+    margin-left: 0px;  
+}
+
+.channel-page-navbar a {
+    display: flex;
+    width: auto;
+    font-size: 14px;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.channel-page-navbar a:hover {
+    color: aliceblue;
+}
+
+.channel-page-top-video-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+    width: 75%;
+}
+.channel-page-top-video-dsc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.channel-page-top-video-dsc h1 {
+    font-size: 14px;
+}
+.channel-page-top-video-dsc h2 {
+    font-size: 12px;
+    color: grey;
+}
+.channel-page-top-video-dsc p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.channel-page-one-category-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: left;   
+    margin-top: 30px;
+    margin-left: 0%;
+}
+.channel-page-one-category-title-container {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+}
+.channel-page-one-category-title-container a {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.channel-page-one-category-title-container button {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 15px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+
+}
+.channel-page-one-category-title-container button img {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-right: 8px;
+}
+.channel-page-one-category-title-container button:hover {
+    background-color: grey;
+}
+.channel-page-one-category-container p {
+    font-size: 14px;
+    color: grey;
+    width: 38%;
+}
+.channel-page-one-category-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;    
+}
+.channel-page-one-category-videos-one-video {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 16.6%;
+}
+.channel-page-one-category-videos-one-video h1 {
+    font-size: 13px;
+    width: 90%;
+    line-height: 20px;
+}
+.channel-page-one-category-videos-one-video p{
+    font-size: 12px;
+    width: 90%;
+    line-height: 15px;
+    margin: 2px;
+    margin-left: 0px;
+}
