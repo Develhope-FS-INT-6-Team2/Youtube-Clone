@@ -152,8 +152,7 @@
 }
 .channel-page-one-category-title-container button img {
     width: 20px;
-    height: 20px;
-    background-color: aqua;
+    height: 20px;  
     margin-right: 8px;
 }
 .channel-page-one-category-title-container button:hover {
