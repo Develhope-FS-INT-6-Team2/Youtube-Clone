@@ -37,6 +37,9 @@ body {
   margin: auto;
   padding: 1% 0;
 }
+.gaming-info > *:hover {
+  cursor: pointer;
+}
 .gaming-icon-section {
   margin-right: 2%;
   margin-left: 1.8%;
