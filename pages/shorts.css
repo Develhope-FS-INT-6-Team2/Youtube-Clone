@@ -85,8 +85,6 @@ h2 {
   margin-right: 10px;
 }
 
-
-
 .shorts-page-information {
   position: absolute;
   margin-left: 500px;
@@ -128,6 +126,7 @@ h2 {
 */
 .shorts-page-reaction-button:hover {
   background-color: #aaa;
+  cursor: pointer;
 }
 
 .shorts-page-reaction-container {
