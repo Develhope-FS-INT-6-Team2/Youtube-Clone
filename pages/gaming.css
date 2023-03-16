@@ -4,11 +4,11 @@ body {
   box-sizing: border-box;
 }
 
-{
-  box-sizing: border-box;
+* {
   color: white;
   font-family: "Inter", sans-serif;
 }
+
 
 .gaming-page {
   width: 100%;
