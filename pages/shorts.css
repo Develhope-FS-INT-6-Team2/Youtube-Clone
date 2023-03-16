@@ -23,13 +23,69 @@ h2 {
 
 .shorts-page-image {
   position: relative;
-  display: inline-block;
   margin: 0 auto;
-  z-index: 0;
   min-height: 650px;
   max-width: 380px;
   border-radius: 10px;
 }
+
+.shorts-page-video-footer {
+  position: relative;
+  width: 360px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+}
+
+.shorts-page-video-footer h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.shorts-page-subscribe {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shorts-page-subscribe img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.shorts-page-subscribe p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.shorts-page-subscribe button {
+  margin-left: auto;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.shorts-page-channel {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.shorts-page-channel img {
+  margin-right: 10px;
+}
+
+
 
 .shorts-page-information {
   position: absolute;
@@ -40,7 +96,7 @@ h2 {
 .shorts-page-information > * {
   margin-top: 12px;
 }
-
+/*
 .shorts-page-subscribe {
   display: flex;
   align-items: center;
@@ -69,7 +125,7 @@ h2 {
 .shorts-page-subscribe > button:hover {
   background-color: #aaa;
 }
-
+*/
 .shorts-page-reaction-button:hover {
   background-color: #aaa;
 }
@@ -80,6 +136,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
+/*
 .shorts-page-channel {
   display: flex;
   align-items: center;
@@ -94,7 +151,7 @@ h2 {
   font-size: 14px;
   font-weight: 500;
 }
-
+*/
 .shorts-page-reaction-button {
   display: flex;
   justify-content: center;

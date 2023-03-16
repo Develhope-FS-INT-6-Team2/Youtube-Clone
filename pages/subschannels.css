@@ -24,9 +24,10 @@
 }
 
 .category-name {
+    width: 100%;
     color: aliceblue;
     font-size: 20px;
-    align-items: left;
+    /**/
 }
 .channel-box {
     display: flex;
