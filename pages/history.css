@@ -1,7 +1,6 @@
 
 html,
 body {
-  margin: ;
   padding: 0;
   font-family: "Roboto", sans-serif;
   background-color: #0f0f0f;
@@ -473,8 +472,7 @@ color:grey;
   .vid-info {
     color: #e3e3e3;
     width: 100%;
-    line-height: 15px;
-    
+   
   
     
   }
@@ -482,8 +480,8 @@ color:grey;
  
 
   .vid-list {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left:2%;
+    margin-right: 2%;
     height: 160px;
     width: 100%;
     
@@ -498,7 +496,7 @@ color:grey;
   }
   .vid-list .flex-div {
     align-items: flex-start;
-    margin-top: 9px;
+    
   }
  
   .fourdiv {
@@ -507,19 +505,12 @@ color:grey;
     flex-wrap: wrap;
     margin-bottom: 2%;
     margin-top: 2%;
-    flex-direction: column;
+    flex-direction: row;
    width: 50%;
     margin-left: 12%;
   }
 
-  .listtwo-container {
-    color: #e3e3e3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 600px;
-  }
+  
   .vid-list div a {
     font-size: 1.3rem;
     font-weight: 500px;
@@ -530,7 +521,7 @@ color:grey;
   .vid-view {
     font-size: 13px;
     color: #8e8e8e;
-    line-height: 5px;
+   
   }
 
 
