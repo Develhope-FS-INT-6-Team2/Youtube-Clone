@@ -13,28 +13,36 @@ h2 {
   font-weight: 500;
 }
 
+.short-video {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .shorts-page-container {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-left: 5%;
-  margin-top: 1%;
+  margin-top: 15%;
+}
+
+.shorts-page-container > *:hover {
+  cursor: pointer;
 }
 
 .shorts-page-image {
   position: relative;
   margin: 0 auto;
-  min-height: 650px;
-  max-width: 380px;
+  aspect-ratio: 0.6;
+  max-width: 450px;
   border-radius: 10px;
 }
 
 .shorts-page-video-footer {
   position: relative;
-  width: 360px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 10px;
 }
 
 .shorts-page-video-footer h2 {
@@ -87,7 +95,7 @@ h2 {
 
 .shorts-page-information {
   position: absolute;
-  margin-left: 500px;
+  margin-left: 550px;
   margin-top: 280px;
 }
 
@@ -201,4 +209,15 @@ h2 {
 .shorts-page-video-footer {
   z-index: 2;
   margin-top: -35%;
+  width: 450px;
+  padding: 1% 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.shorts-page-video-footer > * {
+  margin: 4%;
+}
+
+.shorts-page-video-footer > h2 {
+  text-align: center;
 }
