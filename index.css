@@ -320,16 +320,23 @@ a:visited {
   touch-action: auto;
 }
 .side-bar {
-  display: inline-table;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  
+  height: 900px;
   width: 12%;
-
-  overflow: visible;
-
+  scrollbar-width: none;
+  scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+  overflow: scroll;
   font-style: Roboto Medium;
   font-size: 14px;
+}
+.side-bar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
 }
 .content-container {
   width: 88%;
