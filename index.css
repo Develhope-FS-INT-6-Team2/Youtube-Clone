@@ -143,9 +143,11 @@ a:visited {
 }
 #dots-content {
   display: none;
+  background-color: #272727;
   position: absolute;
   z-index: 1;
-  margin-top: 60%;
+  font-size: 15px;
+  margin-top: 50%;
 }
 
 #dots-content a {
@@ -171,12 +173,9 @@ a:visited {
   position: relative;
   background-color: #0f0f0f;
   border-radius: 40px;
-
   border: 1px solid rgb(170, 170, 170);
-
   cursor: pointer;
   height: 37px;
-
   scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
   width: 120px;
 }
@@ -462,6 +461,7 @@ footer {
   border-top: 1px solid white;
   padding-left: 25px;
   padding-top: 25px;
+  /* display: flex; */
 }
 
 footer * {
@@ -478,6 +478,8 @@ footer > div > div {
 
 footer > div > div > a {
   margin-right: 8px;
+  width: 100%;
+  padding: 1px;
 }
 
 footer > * {
